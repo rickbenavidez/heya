@@ -6,6 +6,8 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 - Fix a typo in message.html.erb.tt.
+- Support Rails 7.2: Updated ActiveRecord extension `build_arel` to match updated 
+  signature which now passes connection.
 
 ## [0.10.0] - 2024-03-18
 ### Added
